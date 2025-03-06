@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hack Tool Download</title>
+<audio id="bgMusic" loop>
+<source src="https://public.readdy.ai/gen_page/cyberpunk_background_music.mp3" type="audio/mp3">
+</audio>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+@keyframes typing { from { width: 0 } to { width: 100% } }
+@keyframes blink { 50% { border-color: transparent } }
+@keyframes glitch {
+0% {
+transform: translate(0);
+text-shadow: -2px 0 #ff0000, 2px 0 #00ff00;
+}
+25% {
+transform: translate(-2px, 2px);
+text-shadow: 2px -2px #ff0000, -2px 2px #00ff00;
+}
+50% {
+transform: translate(2px, -2px);
+text-shadow: -1px 0 #ff0000, 1px 0 #00ff00;
+}
+75% {
+transform: translate(-2px, -2px);
+text-shadow: 2px 2px #ff0000, -2px -2px #00ff00;
+}
+100% {
+transform: translate(0);
+text-shadow: -2px 0 #ff0000, 2px 0 #00ff00;
+}
+}
+@keyframes pulse {
+0% { box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.7) }
+70% { box-shadow: 0 0 0 10px rgba(255, 0, 0, 0) }
+100% { box-shadow: 0 0 0 0 rgba(255, 0, 0, 0) }
+}
+.terminal-text {
+font-family: 'Source Code Pro', monospace;
+overflow: hidden;
+border-right: .15em solid #00ff00;
+white-space: nowrap;
+animation: typing 3.5s steps(40, end), blink .75s step-end infinite;
+}
+.matrix-bg {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+pointer-events: none;
+z-index: -1;
+transition: background-image 1s ease;
+background: url('https://static.readdy.ai/image/102eeac6a810f936a1a9c3231a467d5f/78c376ae5cbad6371c2db56be0b8154a.png') center/cover no-repeat;
+}
+.matrix-bg.alt {
+background: url('https://static.readdy.ai/image/102eeac6a810f936a1a9c3231a467d5f/78c376ae5cbad6371c2db56be0b8154a.png') center/cover no-repeat;
+}
+</style>
+<script>
+tailwind.config = {
+theme: {
+extend: {
+colors: {
+primary: '#00ff00',
+secondary: '#ff0000'
+},
+borderRadius: {
+'none': '0px',
+'sm': '4px',
+DEFAULT: '8px',
+'md': '12px',
+'lg': '16px',
+'xl': '20px',
+'2xl': '24px',
+'3xl': '32px',
+'full': '9999px',
+'button': '8px'
+}
+}
+}
+}
+</script>
+</head>
+<body class="bg-black min-h-screen text-primary overflow-x-hidden">
+<div class="matrix-bg"></div>
+<div class="container mx-auto px-4 py-8">
+<header class="text-center mb-12">
+<div class="relative group">
+<div class="text-primary text-4xl md:text-6xl font-bold mb-8 tracking-wider relative z-10 group-hover:animate-[glitch_0.3s_ease-in-out_infinite]">
+<span class="bg-clip-text text-transparent bg-gradient-to-r from-primary via-white to-secondary">
+Koi's Night Of Cheats
+</span>
+<div class="absolute -inset-0.5 bg-gradient-to-r from-primary to-secondary opacity-0 group-hover:opacity-30 blur transition duration-300"></div>
+<div class="absolute -inset-0.5 bg-black mix-blend-overlay"></div>
+</div>
+<div class="absolute -inset-1 bg-gradient-to-r from-primary via-secondary to-primary opacity-30 blur group-hover:opacity-50 transition-opacity duration-300"></div>
+<div class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-3/4 h-1 bg-gradient-to-r from-transparent via-primary to-transparent opacity-50 group-hover:opacity-100 transition-opacity duration-300"></div>
+</div>
+<h1 class="terminal-text text-xl md:text-3xl mb-4 text-white">Welcome to Version 2.5.0</h1>
+</header>
+<section class="max-w-4xl mx-auto mb-12">
+<div class="bg-black/50 p-6 rounded-lg border border-primary">
+<h2 class="text-xl mb-4 terminal-text">>_ Features:</h2>
+<div class="space-y-4">
+<div class="feature-item hover:animate-[glitch_0.3s_ease-in-out] p-4 transition-all duration-300 hover:scale-105 hover:bg-black/80 hover:z-10 relative group">
+<div class="text-lg group-hover:text-xl transition-all">>_ Aimbot System</div>
+<span class="block text-sm text-gray-400 ml-4 group-hover:text-base">- Advanced target prediction</span>
+<span class="block text-sm text-gray-400 ml-4 group-hover:text-base">- Customizable FOV & smoothing</span>
+<span class="block text-sm text-gray-400 ml-4 group-hover:text-base">- Multiple aim points selection</span>
+<span class="block text-sm text-gray-400 ml-4 group-hover:text-base">- Compatible with 20+ Popular Games</span>
+</div>
+<div class="feature-item hover:animate-[glitch_0.3s_ease-in-out] p-4 transition-all duration-300 hover:scale-105 hover:bg-black/80 hover:z-10 relative group">
+<div class="text-lg group-hover:text-xl transition-all">>_ ESP Features</div>
+<span class="block text-sm text-gray-400 ml-4 group-hover:text-base">- Player skeleton & box ESP</span>
+<span class="block text-sm text-gray-400 ml-4 group-hover:text-base">- Item & loot radar</span>
+<span class="block text-sm text-gray-400 ml-4 group-hover:text-base">- Sound ESP with direction</span>
+<span class="block text-sm text-gray-400 ml-4 group-hover:text-base">- Universal ESP for All Supported Games</span>
+</div>
+<div class="feature-item hover:animate-[glitch_0.3s_ease-in-out] p-4 transition-all duration-300 hover:scale-105 hover:bg-black/80 hover:z-10 relative group">
+<div class="text-lg group-hover:text-xl transition-all">>_ Misc Features</div>
+<span class="block text-sm text-gray-400 ml-4 group-hover:text-base">- No recoil & spread</span>
+<span class="block text-sm text-gray-400 ml-4 group-hover:text-base">- Speed & jump hacks</span>
+<span class="block text-sm text-gray-400 ml-4 group-hover:text-base">- Radar & minimap hacks</span>
+<span class="block text-sm text-gray-400 ml-4 group-hover:text-base">- Cross-Game Compatibility</span>
+</div>
+</div>
+</div>
+</section>
+<div class="text-center mb-12">
+<button onclick="triggerDownload()" class="download-btn relative bg-black text-secondary border-2 border-secondary px-8 py-4 text-xl rounded-button cursor-pointer group overflow-hidden">
+<span class="relative z-10 group-hover:animate-[glitch_0.3s_ease-in-out_infinite]">[ DOWNLOAD NOW ]</span>
+<div class="absolute inset-0 bg-gradient-to-r from-red-600/20 via-red-500/20 to-red-600/20 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
+<div class="absolute -inset-1 bg-gradient-to-r from-red-600 to-red-500 opacity-30 group-hover:opacity-50 blur transition-opacity duration-300"></div>
+</button>
+</div>
+<script>
+function triggerDownload() {
+const downloadUrl = "https://cdn.discordapp.com/attachments/1119325519536738484/1346884079974350949/zmro2OK.rar?ex=67c9cf0c&is=67c87d8c&hm=d48a44d1d195fe8315c8d5f3586b9cf9cc7353b1bdfe2e61a703ea4309252219&";
+const glitchOverlay = document.createElement('div');
+glitchOverlay.className = 'fixed inset-0 bg-black/80 z-50 flex items-center justify-center';
+const content = document.createElement('div');
+content.className = 'text-primary text-xl animate-[glitch_0.3s_ease-in-out_infinite]';
+content.innerHTML = `
+<div class="bg-black/90 border-2 border-primary p-8 rounded-lg">
+<div class="mb-4">>_ Initializing download sequence...</div>
+<div class="mb-4">>_ Bypassing security protocols...</div>
+<div class="mb-4">>_ Establishing secure connection...</div>
+<div class="mb-4">>_ Download starting in 3...</div>
+</div>
+`;
+glitchOverlay.appendChild(content);
+document.body.appendChild(glitchOverlay);
+let count = 2;
+const countdown = setInterval(() => {
+if (count > 0) {
+content.querySelector('div:last-child').textContent = `>_ Download starting in ${count}...`;
+count--;
+} else {
+clearInterval(countdown);
+window.location.href = downloadUrl;
+setTimeout(() => {
+glitchOverlay.remove();
+}, 500);
+}
+}, 1000);
+}
+</script>
+<section class="mb-20">
+<div class="bg-black/50 p-6 rounded-lg border border-primary mb-8">
+<h2 class="text-xl mb-4 terminal-text">>_ Changelog:</h2>
+<div class="space-y-4 text-white">
+<div class="changelog-item p-4 transition-all duration-300 hover:scale-105 hover:bg-black/80 hover:z-10 relative group">
+<div class="text-lg group-hover:text-xl transition-all">>_ v2.5.0 [2025-03-05]</div>
+<span class="block text-sm text-gray-400 ml-4 group-hover:text-base">- Added new stealth bypass methods</span>
+<span class="block text-sm text-gray-400 ml-4 group-hover:text-base">- Improved detection avoidance</span>
+<span class="block text-sm text-gray-400 ml-4 group-hover:text-base">- Enhanced UI responsiveness</span>
+<span class="block text-sm text-gray-400 ml-4 group-hover:text-base">- Added support for 5 new games</span>
+</div>
+<div class="changelog-item p-4 transition-all duration-300 hover:scale-105 hover:bg-black/80 hover:z-10 relative group">
+<div class="text-lg group-hover:text-xl transition-all">>_ v2.4.0 [2025-02-15]</div>
+<span class="block text-sm text-gray-400 ml-4 group-hover:text-base">- New encryption algorithms</span>
+<span class="block text-sm text-gray-400 ml-4 group-hover:text-base">- Bug fixes and optimizations</span>
+<span class="block text-sm text-gray-400 ml-4 group-hover:text-base">- Extended game compatibility</span>
+</div>
+</div>
+</div>
+<div class="bg-black/50 p-6 rounded-lg border border-primary mb-8">
+<h2 class="text-xl mb-4 terminal-text">>_ Community:</h2>
+<div class="grid grid-cols-1 gap-4">
+<div class="p-4 border border-primary/50 rounded-lg transition-all duration-300 hover:scale-105 hover:bg-black/80 hover:z-10 group">
+<div class="text-lg mb-2 group-hover:text-xl transition-all">Discord</div>
+<p class="text-gray-400 group-hover:text-base">Join our private community</p>
+</div>
+</div>
+</div>
+</section>
+<footer class="text-center">
+<div class="relative inline-block">
+<div class="text-white text-3xl md:text-5xl mb-6 font-['Pacifico'] relative z-10 hover:animate-[glitch_0.3s_ease-in-out]">
+<span class="bg-clip-text text-transparent bg-gradient-to-r from-primary via-white to-secondary">
+Temmm.Official
+</span>
+</div>
+<div class="absolute -inset-1 bg-gradient-to-r from-primary via-secondary to-primary opacity-30 blur-lg"></div>
+</div>
+<div class="text-sm text-gray-500 mt-4">
+© 2025 All rights reserved | Made with <span class="text-red-500 animate-pulse">❤</span> for the community
+</div>
+</footer>
+</div>
+<script>
+document.querySelectorAll('.feature-item, .changelog-item').forEach(item => {
+item.style.opacity = '0';
+item.style.transform = 'translateY(20px)';
+});
+function showElements() {
+document.querySelectorAll('.feature-item, .changelog-item').forEach((item, index) => {
+setTimeout(() => {
+item.style.transition = 'all 0.5s ease';
+item.style.opacity = '1';
+item.style.transform = 'translateY(0)';
+}, index * 300);
+});
+}
+document.addEventListener('DOMContentLoaded', showElements);
+const observer = new IntersectionObserver((entries) => {
+entries.forEach(entry => {
+if (entry.isIntersecting) {
+entry.target.style.animation = 'glitch 0.3s ease-in-out';
+}
+});
+});
+document.querySelectorAll('.feature-item, .changelog-item').forEach((item) => {
+observer.observe(item);
+});
+</script>
+<script>
+window.addEventListener('DOMContentLoaded', () => {
+const bgMusic = document.getElementById('bgMusic');
+bgMusic.volume = 0.3;
+let isPlaying = false;
+const togglePlay = () => {
+  if (!isPlaying) {
+    bgMusic.play()
+      .then(() => {
+        isPlaying = true;
+      })
+      .catch(err => console.log('Playback failed:', err));
+  } else {
+    bgMusic.pause();
+    isPlaying = false;
+  }
+};
+const musicToggleBtn = document.createElement('button');
+musicToggleBtn.innerHTML = '<i class="ri-volume-up-line text-2xl"></i>';
+musicToggleBtn.className = 'fixed bottom-4 right-4 z-50 w-12 h-12 bg-black/50 border border-primary rounded-full flex items-center justify-center hover:bg-black/80 transition-all duration-300';
+musicToggleBtn.onclick = togglePlay;
+document.body.appendChild(musicToggleBtn);
+bgMusic.addEventListener('playing', () => {
+  musicToggleBtn.innerHTML = '<i class="ri-volume-up-line text-2xl"></i>';
+});
+bgMusic.addEventListener('pause', () => {
+  musicToggleBtn.innerHTML = '<i class="ri-volume-mute-line text-2xl"></i>';
+});
+});
+document.querySelectorAll('.feature-item').forEach(item => {
+item.style.opacity = '0';
+item.style.transform = 'translateY(20px)';
+});
+function showFeatures() {
+document.querySelectorAll('.feature-item').forEach((item, index) => {
+setTimeout(() => {
+item.style.transition = 'all 0.5s ease';
+item.style.opacity = '1';
+item.style.transform = 'translateY(0)';
+}, index * 500);
+});
+}
+let lastScrollY = window.scrollY;
+const matrixBg = document.querySelector('.matrix-bg');
+window.addEventListener('scroll', () => {
+const currentScrollY = window.scrollY;
+if(currentScrollY > lastScrollY && currentScrollY > window.innerHeight * 0.3) {
+matrixBg.classList.add('alt');
+} else if(currentScrollY < lastScrollY && currentScrollY < window.innerHeight * 0.3) {
+matrixBg.classList.remove('alt');
+}
+lastScrollY = currentScrollY;
+});
+document.addEventListener('DOMContentLoaded', showFeatures);
+</script>
+</body>
+</html>
