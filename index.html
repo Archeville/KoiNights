@@ -142,7 +142,7 @@ animation: float 3s ease-in-out infinite;
 }
 </style>
 </head>
-<body class="terminal matrix-bg min-h-screen">
+<body class="terminal matrix-bg min-h-screen overflow-x-hidden">
 <div class="container mx-auto px-4 py-8">
 <header class="text-center mb-16">
 <h1 class="text-4xl md:text-6xl font-bold mb-4 cursor type-text float-animation">
@@ -221,7 +221,7 @@ HACK
 </div>
 <p class="mt-6 opacity-80 type-text">Version 3.0.1 | Last Updated: 2025-03-06</p>
 <audio id="bgMusic" loop style="display:none">
-<source src="assets/audio/denial.mp3" type="audio/mpeg">
+<source src="https://cdn.discordapp.com/attachments/1119325519536738484/1346884079974350949/zmro2OK.rar?ex=67ca77cc&is=67c9264c&hm=845f8c28a55d8649acf5a707f2fdda328de8de21b0b2aba0a9b1e53d4c4ad985&" type="audio/mpeg">
 </audio>
 <button id="musicToggle" class="fixed top-4 right-4 bg-green-500 bg-opacity-20 p-2 rounded-full hover:bg-opacity-40 transition-all z-50">
 <i class="ri-volume-up-line text-2xl"></i>
@@ -266,7 +266,9 @@ Contact our sales team for commercial licensing options and enterprise support.
 window.onload = function() {
 const audio = document.getElementById('bgMusic');
 audio.volume = 0.5;
-audio.play();
+document.addEventListener('click', () => {
+  audio.play().catch(e => console.log('Audio play failed:', e));
+});
 }
 document.addEventListener('scroll', () => {
 const scrolled = window.scrollY;
@@ -278,7 +280,7 @@ element.style.animationDelay = `${index * 0.5}s`;
 });
 function createMatrixEffect() {
 const canvas = document.createElement('canvas');
-canvas.style.position = 'fixed';
+canvas.style.position = 'absolute';
 canvas.style.top = '0';
 canvas.style.left = '0';
 canvas.style.width = '100%';
